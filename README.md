@@ -1,0 +1,3 @@
+# hkis-exercises
+
+Versionning HackInScience.org exercises via the API for easy local edition, testing / backuping / keeping history / ...
