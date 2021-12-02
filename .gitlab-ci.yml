@@ -19,7 +19,7 @@ pytest:
 deploy:
   stage: deploy
   only:
-    - master
+    - main
   script:
     - wget -q https://framagit.org/hackinscience/hkis-website/-/raw/master/scripts/push.py
     - wget -q https://framagit.org/hackinscience/hkis-website/-/raw/master/scripts/utils.py
