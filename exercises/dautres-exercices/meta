@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/112/",
+    "title": "Need more exercises ?",
+    "title_en": "Need more exercises ?",
+    "title_fr": "D'autres exercices ?",
+    "slug": "dautres-exercices",
+    "is_published": true,
+    "position": 99999.0,
+    "created_at": "2021-12-02T15:42:23.713944+01:00",
+    "points": 0,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}
