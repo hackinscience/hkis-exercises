@@ -1,12 +1,13 @@
 import sys
 import gettext
 import re
-from pathlib import Path
 
 import correction_helper as checker
 
 checker.exclude_file_from_traceback(__file__)
-_ = gettext.translation("check", Path(__file__).parent, fallback=True).gettext
+_ = gettext.translation(
+    "check", "/opt/hkis-celery/exercises/locale/", fallback=True
+).gettext
 
 with checker.student_code(prefix="While importing your solution:"):
     from solution import print_even_numbers

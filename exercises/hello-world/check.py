@@ -1,11 +1,12 @@
 import sys
 import gettext
-from pathlib import Path
 
 import correction_helper as ch
 
 ch.exclude_file_from_traceback(__file__)
-_ = gettext.translation("check", Path(__file__).parent, fallback=True).gettext
+_ = gettext.translation(
+    "check", "/opt/hkis-celery/exercises/locale/", fallback=True
+).gettext
 
 
 def check():

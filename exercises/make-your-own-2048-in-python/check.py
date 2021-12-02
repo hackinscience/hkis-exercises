@@ -1,9 +1,10 @@
-from pathlib import Path
 import gettext
 import correction_helper as checker
 import numpy as np
 
-_ = gettext.translation("check", Path(__file__).parent, fallback=True).gettext
+_ = gettext.translation(
+    "check", "/opt/hkis-celery/exercises/locale/", fallback=True
+).gettext
 checker.exclude_file_from_traceback(__file__)
 
 checker.run("solution.py")

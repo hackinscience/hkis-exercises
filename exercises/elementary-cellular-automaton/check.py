@@ -1,11 +1,12 @@
 import gettext
 from time import perf_counter
-from pathlib import Path
 
 import correction_helper as checker
 
 checker.exclude_file_from_traceback(__file__)
-_ = gettext.translation("check", Path(__file__).parent, fallback=True).gettext
+_ = gettext.translation(
+    "check", "/opt/hkis-celery/exercises/locale/", fallback=True
+).gettext
 
 
 def too_slow(start, tested):

@@ -1,6 +1,5 @@
 import gettext
 from itertools import combinations_with_replacement
-from pathlib import Path
 from random import choice, randint
 from string import ascii_letters
 
@@ -8,7 +7,9 @@ import correction_helper as helper
 
 helper.exclude_file_from_traceback(__file__)
 
-gettext = gettext.translation("check", Path(__file__).parent, fallback=True).gettext
+gettext = gettext.translation(
+    "check", "/opt/hkis-celery/exercises/locale/", fallback=True
+).gettext
 
 
 messages = [

@@ -1,10 +1,11 @@
 import gettext
 from itertools import zip_longest, product
-from pathlib import Path
 
 import correction_helper as checker
 
-_ = gettext.translation("check", Path(__file__).parent, fallback=True).gettext
+_ = gettext.translation(
+    "check", "/opt/hkis-celery/exercises/locale/", fallback=True
+).gettext
 
 
 checker.exclude_file_from_traceback(__file__)

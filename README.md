@@ -83,10 +83,13 @@ Beware of those common patterns of failing checks:
 
 ## i18n
 
-- make check.po
-- Translate the file
-- python store_po.py
-- python ../hkis-website/scripts/push.py --username julien --password-file ~/.hkis_password  --only bencode
+po files are compiled to mo files on the correction servers via
+[hkis-ansible](https://framagit.org/hackinscience/hkis-ansible).
+
+To work on translations:
+
+- run `make` to update the `.po` file.
+- Translate the `.po` file (in `locales/fr/LC_MESSAGES/`)
 
 
 ## Testing

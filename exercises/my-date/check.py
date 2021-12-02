@@ -3,12 +3,13 @@ from time import sleep
 import re
 from datetime import datetime
 from itertools import zip_longest
-from pathlib import Path
 
 from correction_helper import code, exclude_file_from_traceback, fail, run
 
 exclude_file_from_traceback(__file__)
-_ = gettext.translation("check", Path(__file__).parent, fallback=True).gettext
+_ = gettext.translation(
+    "check", "/opt/hkis-celery/exercises/locale/", fallback=True
+).gettext
 
 
 def check():
