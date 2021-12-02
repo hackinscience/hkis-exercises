@@ -102,3 +102,16 @@ To test everything run:
 Or to check a single exercise by part of its name:
 
     pytest -k primes
+
+
+# Licenses
+
+The HackInScience Website uses an MIT license, most of this repo use
+an MIT license too.
+
+But exercise come from various authors an may have different licenses,
+if you're an author, feel free to place a LICENSE file at the root of
+your exercise directory.
+
+Unless stated differently, exericses use a [CC BY-NC
+4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.
