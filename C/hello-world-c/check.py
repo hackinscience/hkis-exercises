@@ -1,10 +1,14 @@
 from subprocess import run, PIPE
-from correction_helper import code, congrats, fail
+from correction_helper import code, congrats, fail, exclude_file_from_traceback
 
-gcc = run(["gcc", "solution.c", "-o", "solution"], stderr=PIPE, stdout=PIPE, encoding="UTF-8")
+exclude_file_from_traceback(__file__)
+
+gcc = run(
+    ["gcc", "solution.c", "-o", "solution"], stderr=PIPE, stdout=PIPE, encoding="UTF-8"
+)
 if gcc.stderr:
     fail("Failed compiling your code:", code(gcc.stderr))
-    
+
 output = run(["./solution"], stdout=PIPE, stderr=PIPE, encoding="UTF-8")
 if output.stdout == "Hello World\n":
     print(congrats())
