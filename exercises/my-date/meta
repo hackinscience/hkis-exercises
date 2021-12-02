@@ -5,10 +5,10 @@
     "title_fr": "my date",
     "slug": "my-date",
     "is_published": true,
-    "position": 3717.21126760563,
+    "position": 4000.0,
     "created_at": "2016-12-16T14:04:11+01:00",
     "points": 13,
     "author": "https://www.hackinscience.org/api/users/141/",
-    "category": "https://www.hackinscience.org/api/categories/3/",
+    "category": "https://www.hackinscience.org/api/categories/2/",
     "page": "https://www.hackinscience.org/api/pages/1/"
 }
