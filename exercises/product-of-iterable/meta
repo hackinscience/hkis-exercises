@@ -1,9 +1,9 @@
 {
     "url": "https://www.hackinscience.org/api/exercises/51/",
-    "title": "Multiply all the given parameters",
-    "title_en": "Multiply all the given parameters",
-    "title_fr": "Multiply all the given parameters",
-    "slug": "multiply-all-the-given-parameters",
+    "title": "Product of iterable",
+    "title_en": "Product of iterable",
+    "title_fr": "Produit d'un it\u00e9rable",
+    "slug": "product-of-iterable",
     "is_published": true,
     "position": 4477.64788732394,
     "created_at": "2017-01-16T15:30:13+01:00",
