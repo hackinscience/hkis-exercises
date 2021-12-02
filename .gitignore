@@ -1,6 +1,5 @@
 .idea/
 .venv/
-pre_check.py
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,emacs
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,emacs
