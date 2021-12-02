@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/47/",
+    "title": "Doing HTTP requests",
+    "title_en": "Doing HTTP requests",
+    "title_fr": "Doing HTTP requests",
+    "slug": "doing-http-requests",
+    "is_published": true,
+    "position": 4493.61971830986,
+    "created_at": "2017-01-16T14:47:42+01:00",
+    "points": 47,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

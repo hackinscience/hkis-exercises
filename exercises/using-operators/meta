@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/15/",
+    "title": "Using operators",
+    "title_en": "Using operators",
+    "title_fr": "Using operators",
+    "slug": "using-operators",
+    "is_published": true,
+    "position": 1200.0,
+    "created_at": "2016-12-09T16:51:32+01:00",
+    "points": 4,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/2/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

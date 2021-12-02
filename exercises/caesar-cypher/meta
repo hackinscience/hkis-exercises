@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/59/",
+    "title": "Caesar Cypher",
+    "title_en": "Caesar Cypher",
+    "title_fr": "Caesar Cypher",
+    "slug": "caesar-cypher",
+    "is_published": true,
+    "position": 4511.7323943662,
+    "created_at": "2017-01-17T15:17:20+01:00",
+    "points": 54,
+    "author": "https://www.hackinscience.org/api/users/371/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

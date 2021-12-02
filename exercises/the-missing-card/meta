@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/90/",
+    "title": "The missing card",
+    "title_en": "The missing card",
+    "title_fr": "The missing card",
+    "slug": "the-missing-card",
+    "is_published": true,
+    "position": 4395.38028169014,
+    "created_at": "2018-12-22T23:54:29.201264+01:00",
+    "points": 29,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

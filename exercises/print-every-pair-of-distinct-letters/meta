@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/25/",
+    "title": "Print every pair of distinct letters",
+    "title_en": "Print every pair of distinct letters",
+    "title_fr": "Print every pair of distinct letters",
+    "slug": "print-every-pair-of-distinct-letters",
+    "is_published": true,
+    "position": 3903.23943661972,
+    "created_at": "2016-12-24T22:06:46+01:00",
+    "points": 16,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

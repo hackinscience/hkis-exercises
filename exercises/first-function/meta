@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/22/",
+    "title": "First function",
+    "title_en": "First function",
+    "title_fr": "First function",
+    "slug": "first-function",
+    "is_published": true,
+    "position": 3000.0,
+    "created_at": "2016-12-15T20:46:04+01:00",
+    "points": 12,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

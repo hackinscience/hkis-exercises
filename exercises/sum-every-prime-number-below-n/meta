@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/39/",
+    "title": "Sum of every prime number below n",
+    "title_en": "Sum of every prime number below n",
+    "title_fr": "Sum of every prime number below n",
+    "slug": "sum-every-prime-number-below-n",
+    "is_published": true,
+    "position": 4351.0,
+    "created_at": "2017-01-16T12:34:07+01:00",
+    "points": 30,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

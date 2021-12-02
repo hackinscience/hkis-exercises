@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/50/",
+    "title": "Frequency of letters in a file",
+    "title_en": "Frequency of letters in a file",
+    "title_fr": "Fr\u00e9quence de lettres dans un fichier",
+    "slug": "give-the-frequency-of-letters-in-the-words-file",
+    "is_published": true,
+    "position": 4490.67605633803,
+    "created_at": "2017-01-16T15:23:59+01:00",
+    "points": 46,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

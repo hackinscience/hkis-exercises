@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/17/",
+    "title": "my add",
+    "title_en": "my add",
+    "title_fr": "my add",
+    "slug": "my-add",
+    "is_published": true,
+    "position": 4184.29577464789,
+    "created_at": "2016-12-09T21:52:37+01:00",
+    "points": 21,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/4/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

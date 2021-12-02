@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/42/",
+    "title": "Next prime",
+    "title_en": "Next prime",
+    "title_fr": "Nombre premier suivant",
+    "slug": "print-the-first-prime-number-after-the-given-one",
+    "is_published": true,
+    "position": 4353.0,
+    "created_at": "2017-01-16T14:18:49+01:00",
+    "points": 37,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

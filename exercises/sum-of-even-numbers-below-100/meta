@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/21/",
+    "title": "Sum of even numbers <= 100",
+    "title_en": "Sum of even numbers <= 100",
+    "title_fr": "Sum of even numbers <= 100",
+    "slug": "sum-of-even-numbers-below-100",
+    "is_published": true,
+    "position": 3325.14084507042,
+    "created_at": "2016-12-09T15:20:13+01:00",
+    "points": 10,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

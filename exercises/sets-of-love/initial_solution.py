@@ -1,0 +1,6 @@
+def love_meet(bob, alice):
+    ...
+
+
+def affair_meet(bob, alice, silvester):
+    ...

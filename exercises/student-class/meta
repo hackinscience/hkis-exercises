@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/74/",
+    "title": "Student class",
+    "title_en": "Student class",
+    "title_fr": "Student class",
+    "slug": "student-class",
+    "is_published": true,
+    "position": 4490.60563380282,
+    "created_at": "2017-01-17T13:25:13+01:00",
+    "points": 45,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/103/",
+    "title": "Playing with anagrams",
+    "title_en": "Playing with anagrams",
+    "title_fr": "Jouer avec les anagrammes",
+    "slug": "is_anagram",
+    "is_published": true,
+    "position": 4400.0,
+    "created_at": "2021-03-22T21:46:06.111012+01:00",
+    "points": 27,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/24/",
+    "title": "Print every two letters pairs",
+    "title_en": "Print every two letters pairs",
+    "title_fr": "Print every two letters pairs",
+    "slug": "print-every-two-letters-pairs",
+    "is_published": true,
+    "position": 3876.22535211268,
+    "created_at": "2016-12-24T21:58:55+01:00",
+    "points": 15,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

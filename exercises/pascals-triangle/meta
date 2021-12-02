@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/101/",
+    "title": "Pascal's triangle",
+    "title_en": "Pascal's triangle",
+    "title_fr": "Triangle de Pascal",
+    "slug": "pascals-triangle",
+    "is_published": true,
+    "position": 4555.92957746479,
+    "created_at": "2020-10-10T17:20:56.054114+02:00",
+    "points": 68,
+    "author": "https://www.hackinscience.org/api/users/3099/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/32/",
+    "title": "Select students",
+    "title_en": "Select students",
+    "title_fr": "Select students",
+    "slug": "select-students",
+    "is_published": true,
+    "position": 4384.39436619718,
+    "created_at": "2017-01-16T11:22:40+01:00",
+    "points": 27,
+    "author": "https://www.hackinscience.org/api/users/371/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

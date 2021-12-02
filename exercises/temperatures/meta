@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/95/",
+    "title": "Temperatures",
+    "title_en": "Temperatures",
+    "title_fr": "Temperatures",
+    "slug": "temperatures",
+    "is_published": true,
+    "position": 3864.18309859155,
+    "created_at": "2020-04-01T15:47:14.740039+02:00",
+    "points": 14,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/9/",
+    "title": "Characters counting",
+    "title_en": "Characters counting",
+    "title_fr": "Characters counting",
+    "slug": "characters-counting",
+    "is_published": true,
+    "position": 1421.04225352113,
+    "created_at": "2016-12-09T14:22:18+01:00",
+    "points": 4,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/2/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

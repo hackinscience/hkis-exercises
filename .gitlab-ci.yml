@@ -1,0 +1,29 @@
+---
+
+image: registry.gitlab.com/python-devs/ci-images:active
+
+
+stages:
+  - tests
+  - deploy
+
+
+pytest:
+  stage: tests
+  script:
+    - python3 store_po.py
+    - echo "exercises:$ACCOUNT_PASSWORD" > ~/.hkis
+    - tox --parallel=auto -q
+
+
+deploy:
+  stage: deploy
+  only:
+    - master
+  script:
+    - wget -q https://framagit.org/hackinscience/hkis-website/-/raw/master/scripts/push.py
+    - wget -q https://framagit.org/hackinscience/hkis-website/-/raw/master/scripts/utils.py
+    - python3 -m pip install requests
+    - python3 store_po.py
+    - echo "exercises:$ACCOUNT_PASSWORD" > ~/.hkis
+    - python3 push.py

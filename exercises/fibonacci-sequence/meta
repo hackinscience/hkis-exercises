@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/43/",
+    "title": "The Fibonacci sequence",
+    "title_en": "The Fibonacci sequence",
+    "title_fr": "The Fibonacci sequence",
+    "slug": "fibonacci-sequence",
+    "is_published": true,
+    "position": 4426.49295774648,
+    "created_at": "2017-01-16T14:12:26+01:00",
+    "points": 33,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

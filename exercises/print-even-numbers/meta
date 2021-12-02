@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/20/",
+    "title": "Print even numbers",
+    "title_en": "Print even numbers",
+    "title_fr": "Afficher les nombres pairs",
+    "slug": "print-even-numbers",
+    "is_published": true,
+    "position": 3036.12676056338,
+    "created_at": "2016-12-09T15:25:27+01:00",
+    "points": 9,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

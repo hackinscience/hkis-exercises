@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/12/",
+    "title": "Import",
+    "title_en": "Import",
+    "title_fr": "Import",
+    "slug": "import",
+    "is_published": true,
+    "position": 2635.08450704225,
+    "created_at": "2016-12-09T15:38:50+01:00",
+    "points": 6,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/2/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/100/",
+    "title": "Break a safe",
+    "title_en": "Break a safe",
+    "title_fr": "Attaque d'un coffre fort",
+    "slug": "break-a-safe",
+    "is_published": true,
+    "position": 4531.47887323944,
+    "created_at": "2020-10-02T21:24:21.307655+02:00",
+    "points": 57,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

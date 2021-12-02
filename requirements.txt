@@ -1,0 +1,12 @@
+correction-helper>=2021.11.7
+django
+flake8
+flake8-bugbear
+freezegun
+numpy
+pytest
+pytest-xdist[psutil]
+requests
+sympy
+scipy
+tox

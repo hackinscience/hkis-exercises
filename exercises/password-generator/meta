@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/80/",
+    "title": "Password Generator",
+    "title_en": "Password Generator",
+    "title_fr": "Password Generator",
+    "slug": "password-generator",
+    "is_published": true,
+    "position": 4531.94366197183,
+    "created_at": "2017-01-21T17:30:37+01:00",
+    "points": 58,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

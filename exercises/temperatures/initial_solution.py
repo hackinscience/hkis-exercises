@@ -1,0 +1,6 @@
+def fahrenheit_to_celsius(temp):
+    ...
+
+
+def celsius_to_fahrenheit(temp):
+    ...

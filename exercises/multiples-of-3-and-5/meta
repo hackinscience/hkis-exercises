@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/23/",
+    "title": "Multiples of 3 and 5",
+    "title_en": "Multiples of 3 and 5",
+    "title_fr": "Multiples of 3 and 5",
+    "slug": "multiples-of-3-and-5",
+    "is_published": true,
+    "position": 3473.15492957746,
+    "created_at": "2016-12-09T15:40:54+01:00",
+    "points": 11,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/3/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

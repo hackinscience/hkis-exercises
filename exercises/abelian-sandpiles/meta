@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/99/",
+    "title": "Abelian sandpiles",
+    "title_en": "Abelian sandpiles",
+    "title_fr": "Abelian sandpiles",
+    "slug": "abelian-sandpiles",
+    "is_published": true,
+    "position": 4545.6338028169,
+    "created_at": "2020-05-19T16:38:16.062970+02:00",
+    "points": 63,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/5/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

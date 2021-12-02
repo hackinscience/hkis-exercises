@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/3/",
+    "title": "Hello World",
+    "title_en": "Hello World",
+    "title_fr": "Hello World",
+    "slug": "hello-world",
+    "is_published": true,
+    "position": 1.01408450704225,
+    "created_at": "2016-12-09T15:29:38+01:00",
+    "points": 1,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/2/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/10/",
+    "title": "Counting Words",
+    "title_en": "Counting Words",
+    "title_fr": "Counting Words",
+    "slug": "counting-words",
+    "is_published": true,
+    "position": 2834.0985915493,
+    "created_at": "2016-12-09T15:00:35+01:00",
+    "points": 7,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/2/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/41/",
+    "title": "Print every prime numbers in a range",
+    "title_en": "Print every prime numbers in a range",
+    "title_fr": "Print every prime numbers in a range",
+    "slug": "print-every-prime-numbers-in-a-range",
+    "is_published": true,
+    "position": 4352.0,
+    "created_at": "2017-01-16T14:14:04+01:00",
+    "points": 36,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

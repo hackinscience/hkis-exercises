@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/57/",
+    "title": "bencode / bdecode",
+    "title_en": "bencode / bdecode",
+    "title_fr": "bencode / bdecode",
+    "slug": "bencode-bdecode",
+    "is_published": true,
+    "position": 4532.84507042254,
+    "created_at": "2017-01-16T21:48:57+01:00",
+    "points": 59,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

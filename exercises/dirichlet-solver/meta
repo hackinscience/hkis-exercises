@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/104/",
+    "title": "Dirichlet solver",
+    "title_en": "Dirichlet solver",
+    "title_fr": "Dirichlet solver",
+    "slug": "dirichlet-solver",
+    "is_published": true,
+    "position": 5000.0,
+    "created_at": "2021-03-30T22:09:51.268063+02:00",
+    "points": 71,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/5/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/106/",
+    "title": "Square numbers",
+    "title_en": "Square numbers",
+    "title_fr": "Les nombres carr\u00e9s",
+    "slug": "square-numbers",
+    "is_published": true,
+    "position": 2000.0,
+    "created_at": "2021-05-22T17:39:31.172382+02:00",
+    "points": 4,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/2/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

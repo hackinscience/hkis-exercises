@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/33/",
+    "title": "Calculator",
+    "title_en": "Calculator",
+    "title_fr": "Calculator",
+    "slug": "calculator1",
+    "is_published": true,
+    "position": 4435.42253521127,
+    "created_at": "2017-01-16T11:55:13+01:00",
+    "points": 35,
+    "author": "https://www.hackinscience.org/api/users/1/",
+    "category": "https://www.hackinscience.org/api/categories/4/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

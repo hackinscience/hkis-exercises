@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/40/",
+    "title": "Pernicious numbers",
+    "title_en": "Pernicious numbers",
+    "title_fr": "Pernicious numbers",
+    "slug": "pernicious-numbers",
+    "is_published": true,
+    "position": 4470.53521126761,
+    "created_at": "2017-01-16T13:56:17+01:00",
+    "points": 41,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/93/",
+    "title": "Example Exercise",
+    "title_en": "Example Exercise",
+    "title_fr": "Example Exercise",
+    "slug": "example-exercise",
+    "is_published": false,
+    "position": 4562.0,
+    "created_at": "2020-10-12T03:52:16.655533+02:00",
+    "points": 71,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": null,
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

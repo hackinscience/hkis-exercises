@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/70/",
+    "title": "Sapin",
+    "title_en": "Sapin",
+    "title_fr": "Sapin",
+    "slug": "sapin",
+    "is_published": true,
+    "position": 4553.98591549296,
+    "created_at": "2018-01-09T14:09:52+01:00",
+    "points": 67,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/4/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

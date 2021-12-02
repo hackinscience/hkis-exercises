@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/34/",
+    "title": "Check if a number is prime",
+    "title_en": "Check if a number is prime",
+    "title_fr": "Check if a number is prime",
+    "slug": "is-prime",
+    "is_published": true,
+    "position": 4350.0,
+    "created_at": "2017-01-16T12:14:21+01:00",
+    "points": 25,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

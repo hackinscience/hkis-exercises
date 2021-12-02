@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/66/",
+    "title": "Longest Collatz sequence",
+    "title_en": "Longest Collatz sequence",
+    "title_fr": "Longest Collatz sequence",
+    "slug": "longest-collatz-sequence",
+    "is_published": true,
+    "position": 4517.69014084507,
+    "created_at": "2017-01-18T16:32:26+01:00",
+    "points": 55,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

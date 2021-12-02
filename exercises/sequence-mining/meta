@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/65/",
+    "title": "Sequence Mining",
+    "title_en": "Sequence Mining",
+    "title_fr": "Sequence Mining",
+    "slug": "sequence-mining",
+    "is_published": true,
+    "position": 4547.88732394366,
+    "created_at": "2017-01-19T11:37:40+01:00",
+    "points": 65,
+    "author": "https://www.hackinscience.org/api/users/371/",
+    "category": "https://www.hackinscience.org/api/categories/6/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}

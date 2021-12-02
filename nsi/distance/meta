@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/107/",
+    "title": "Distance",
+    "title_en": "Distance",
+    "title_fr": "Distance",
+    "slug": "distance",
+    "is_published": true,
+    "position": 4290.3661971831,
+    "created_at": "2021-05-28T10:53:19.429513+02:00",
+    "points": 22,
+    "author": null,
+    "category": null,
+    "page": "https://www.hackinscience.org/api/pages/8/"
+}
