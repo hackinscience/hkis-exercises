@@ -93,9 +93,13 @@ Maybe just copy-paste it again, it should be:""",
             ch.code(the_paragraph),
         )
     if output > expected:
-        ch.fail("It's less (you gave `{}`)".format(output))
+        ch.fail(
+            "Wow, no, there's less than {} characters in this string".format(output)
+        )
     if output < expected:
-        ch.fail("It's more (you gave `{}`)".format(output))
+        ch.fail(
+            "No... there's more than `{}` characters in this string.".format(output)
+        )
     print(
         ch.congrats(),
         "It's faster than counting them manually!",
