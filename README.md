@@ -29,7 +29,7 @@ In each exercises directory there's a bunch of files:
 - `wording_en.md` and  `wording_fr.md` contains the wording (and translation) for the given exercise.
 - `initial_solution.py`: The code prefilled when a student joins an exercise.
 - `meta`: Other informations about the exercise (title, slug, category, author, ...)
-- `pre_check.py`: Auto-generated, see `store_po.py`.
+- `pre_check.py`: Auto-generated, see `autogen_pre_check.py`.
 
 
 ## How to write a check.py

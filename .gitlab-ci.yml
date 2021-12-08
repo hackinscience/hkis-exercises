@@ -11,7 +11,7 @@ stages:
 pytest:
   stage: tests
   script:
-    - python3 store_po.py
+    - python3 autogen_pre_check.py
     - echo "exercises:$ACCOUNT_PASSWORD" > ~/.hkis
     - tox --parallel=auto -q
 
@@ -24,6 +24,6 @@ deploy:
     - wget -q https://framagit.org/hackinscience/hkis-website/-/raw/master/scripts/push.py
     - wget -q https://framagit.org/hackinscience/hkis-website/-/raw/master/scripts/utils.py
     - python3 -m pip install requests
-    - python3 store_po.py
+    - python3 autogen_pre_check.py
     - echo "exercises:$ACCOUNT_PASSWORD" > ~/.hkis
     - python3 push.py
