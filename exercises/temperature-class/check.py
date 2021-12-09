@@ -27,20 +27,35 @@ def main():
             their_celsius = t0.celsius
             their_fahrenheit = t0.fahrenheit
             their_kelvin = t0.kelvin
+        tail = [
+            "My test case looks like:",
+            checker.code(
+                f"""t0 = Temperature()
+t0.kelvin = {kelvin}
+print(t0.celsius)
+print(t0.fahrenheit)
+print(t0.kelvin)
+""",
+                "python",
+            ),
+        ]
         if not isclose(their_celsius, celsius):
             checker.fail(
                 f"""Converting {kelvin}K to celsius:
-found {their_celsius},expected {celsius}"""
+found {their_celsius},expected {celsius}.""",
+                *tail,
             )
         if not isclose(their_fahrenheit, fahrenheit):
             checker.fail(
                 f"""Converting {kelvin}K to fahrenheit:
-found {their_fahrenheit}, expected {fahrenheit}"""
+found {their_fahrenheit}, expected {fahrenheit}""",
+                *tail,
             )
         if not isclose(their_kelvin, kelvin):
             checker.fail(
                 f"""Converting {kelvin}K back to kelvin:
-found {their_kelvin}, expected {kelvin}"""
+found {their_kelvin}, expected {kelvin}""",
+                *tail,
             )
 
         with checker.student_code():
@@ -105,7 +120,7 @@ t0.fahrenheit = {fahrenheit}
 print(t0.celsius)
 """
                 ),
-                """Basically I'm converting {fahrenheit}°F to celsius,
+                f"""Basically I'm converting {fahrenheit}°F to celsius,
 (after messing around with other values):
 found {their_celsius}, expected {celsius}""",
             )
