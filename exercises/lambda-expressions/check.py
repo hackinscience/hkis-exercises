@@ -91,6 +91,7 @@ not 3 strings."""
         their = filtered([1, 2, 3], lambda x: False)
     if list(their) != []:
         checker.fail("filtered([1, 2, 3], lambda x: False) won't work for me")
+    print(checker.congrats())
 
 
 if __name__ == "__main__":
