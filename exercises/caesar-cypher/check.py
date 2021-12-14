@@ -60,7 +60,7 @@ def check():
                 code(ciphertext),
             )
         with student_code(
-            prefix="While testing `caesar_cypher_decrypt({ciphertext!r}, {rotation})`:"
+            prefix=f"While testing `caesar_cypher_decrypt({ciphertext!r}, {rotation})`:"
         ):
             theirs = caesar_cypher_decrypt(ciphertext, rotation)
         if cleartext != theirs:
