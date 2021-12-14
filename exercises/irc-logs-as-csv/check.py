@@ -28,14 +28,14 @@ def check_no_leave():
     with open("francejs.csv", "w") as francejs:
         francejs.write("""1,1380612632141,"mdk","oa: Hello :)"\n""")
         francejs.write("""1,1380612679888,"oa","mdk: salut"\n""")
-        francejs.write("""4,1380612632141,"mdk2","oa2: Hello :)"\n""")
-        francejs.write("""4,1380612679888,"oa2","mdk2: salut"\n""")
-        francejs.write("""4,1380612632141,"mdk2","oa2: Hello :)"\n""")
-        francejs.write("""4,1380612679888,"oa2","mdk2: salut"\n""")
+        francejs.write("""4,1380612632141,"ada","alan: Hello :)"\n""")
+        francejs.write("""4,1380612679888,"alan","ada: salut"\n""")
+        francejs.write("""4,1380612632141,"ada","alan: Hello :)"\n""")
+        francejs.write("""4,1380612679888,"alan","ada: salut"\n""")
 
     output = run("solution.py")
     validate_format(output)
-    if output == "mdk2, oa2" or output == "oa2, mdk2":
+    if output == "ada, alan" or output == "alan, ada":
         fail(
             """The first column indicates the message type.
 Leaving the chan is not speaking.
@@ -70,25 +70,25 @@ def check_two_cliques():
     with open("francejs.csv", "w") as francejs:
         francejs.write("""1,1380612632141,"mdk","oa: Hello :)"\n""")
         francejs.write("""1,1380612679888,"oa","mdk: salut"\n""")
-        francejs.write("""1,1380612632141,"mdk2","oa2: Hello :)"\n""")
-        francejs.write("""1,1380612679888,"oa2","mdk2: salut"\n""")
-        francejs.write("""1,1380612632141,"mdk2","oa2: Hello :)"\n""")
-        francejs.write("""1,1380612679888,"oa2","mdk2: salut"\n""")
+        francejs.write("""1,1380612632141,"ada","alan: Hello :)"\n""")
+        francejs.write("""1,1380612679888,"alan","ada: salut"\n""")
+        francejs.write("""1,1380612632141,"ada","alan: Hello :)"\n""")
+        francejs.write("""1,1380612679888,"alan","ada: salut"\n""")
 
     output = run("solution.py")
     validate_format(output)
     if output == "mdk, oa" or output == "oa, mdk":
-        fail("I found a group speaking more than this one")
+        fail("I found a group speaking more than this one.")
 
 
 def check_spaces():
     with open("francejs.csv", "w") as francejs:
         francejs.write("""1,1380612632141,"mdk","oa: Hello :)"\n""")
         francejs.write("""1,1380612679888,"oa","mdk: salut"\n""")
-        francejs.write("""1,1380612632141,"mdk2","oa2 : Hello :)"\n""")
-        francejs.write("""1,1380612679888,"oa2","mdk2 : salut"\n""")
-        francejs.write("""1,1380612632141,"mdk2","oa2 : Hello :)"\n""")
-        francejs.write("""1,1380612679888,"oa2","mdk2 : salut"\n""")
+        francejs.write("""1,1380612632141,"ada","alan : Hello :)"\n""")
+        francejs.write("""1,1380612679888,"alan","ada : salut"\n""")
+        francejs.write("""1,1380612632141,"ada","alan : Hello :)"\n""")
+        francejs.write("""1,1380612679888,"alan","ada : salut"\n""")
 
     output = run("solution.py")
     validate_format(output)
