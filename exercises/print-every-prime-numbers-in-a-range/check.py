@@ -34,7 +34,7 @@ def check():
             )
         if intvalue < 10_000 or intvalue > 10_050:
             fail(
-                f"`{intvalue}` is not in the range [10000;10050]!"
+                f"`{intvalue}` is not in the range [10000;10050]!",
                 "Your full output is:",
                 code(output),
             )
