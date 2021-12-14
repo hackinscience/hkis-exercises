@@ -119,15 +119,11 @@ def check_love_meet(alice_path, bob_path):
 
 
 def check_affair_meet(alice_path, bob_path, silvester_path):
-    with checker.student_code(
-        prefix=[
-            "While calling your function as:",
-            checker.code(
-                f"affair_meet({bob_path!r}, {alice_path!r}, {silvester_path!r})",
-                "python",
-            ),
-        ]
-    ):
+    code = checker.code(
+        f"affair_meet({bob_path!r}, {alice_path!r}, {silvester_path!r})",
+        "python",
+    )
+    with checker.student_code(prefix=["While calling your function as:", code]):
         answer = affair_meet(bob_path, alice_path, silvester_path)
     messages = [
         "# Exercise 1",
@@ -144,10 +140,12 @@ def check_affair_meet(alice_path, bob_path, silvester_path):
     ]
     if not isinstance(answer, set):
         checker.fail(
-            f"""From `affair_meet`, I expected a
-    [set](https://docs.python.org/3/library/stdtypes.html#set),
-    you gave a {type(answer)!r}"""
+            "From `affair_meet`, called as:",
+            code,
+            "I expected a [set](https://docs.python.org/3/library/stdtypes.html#set), "
+            f"you gave a {type(answer)!r}",
         )
+
     for district in bob_path:
         if district in answer:
             checker.fail(

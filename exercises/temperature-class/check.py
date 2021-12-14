@@ -63,20 +63,34 @@ found {their_kelvin}, expected {kelvin}""",
             their_celsius = t0.celsius
             their_fahrenheit = t0.fahrenheit
             their_kelvin = t0.kelvin
+        tail = [
+            "My test case looks like:",
+            checker.code(
+                f"""t0.celsius = {celsius}
+print(t0.celsius)
+print(t0.fahrenheit)
+print(t0.kelvin)
+""",
+                "python",
+            ),
+        ]
         if not isclose(their_celsius, celsius):
             checker.fail(
                 f"""Converting {celsius}°C back to celsius:
-found {their_celsius}, expected {celsius}"""
+found {their_celsius}, expected {celsius}""",
+                *tail,
             )
         if not isclose(their_fahrenheit, fahrenheit):
             checker.fail(
                 f"""Converting {celsius}°C to fahrenheit:
-found {their_fahrenheit}, expected {fahrenheit}"""
+found {their_fahrenheit}, expected {fahrenheit}""",
+                *tail,
             )
         if not isclose(their_kelvin, kelvin):
             checker.fail(
                 f"""Converting {celsius}°C to kelvin:
-found {their_kelvin}, expected {kelvin}"""
+found {their_kelvin}, expected {kelvin}""",
+                *tail,
             )
 
         with checker.student_code():
@@ -84,20 +98,36 @@ found {their_kelvin}, expected {kelvin}"""
             their_celsius = t0.celsius
             their_fahrenheit = t0.fahrenheit
             their_kelvin = t0.kelvin
+        tail = [
+            "My test case looks like:",
+            checker.code(
+                f"""t0 = Temperature()
+t0.fahrenheit = {fahrenheit}
+print(t0.celsius)
+print(t0.fahrenheit)
+print(t0.kelvin)
+""",
+                "python",
+            ),
+        ]
+
         if not isclose(their_celsius, celsius):
             checker.fail(
                 f"""Converting {fahrenheit}°F to celsius:
-found {their_celsius}, expected {celsius}"""
+found {their_celsius}, expected {celsius}""",
+                *tail,
             )
         if not isclose(their_fahrenheit, fahrenheit):
             checker.fail(
                 f"""Converting {fahrenheit}°F back to fahrenheit:
-found {their_fahrenheit}, expected {fahrenheit}"""
+found {their_fahrenheit}, expected {fahrenheit}""",
+                *tail,
             )
         if not isclose(their_kelvin, kelvin):
             checker.fail(
                 f"""Converting {fahrenheit}°F to kelvin:
-found {their_kelvin}, expected {kelvin}"""
+found {their_kelvin}, expected {kelvin}""",
+                *tail,
             )
 
         # Test if they don't get lost when I change from an attr to another.
