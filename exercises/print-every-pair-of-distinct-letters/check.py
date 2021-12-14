@@ -23,7 +23,7 @@ def check():
         ch.fail("You printed 'a b' instead of 'ab'.", "You printed:", ch.code(output))
     for pair in "ab", "ac", "ad", "ba", "bc", "xy", "xz":
         if pair not in output:
-            ch.fail("Why not printing `ba`?", "You printed:", ch.code(output))
+            ch.fail(f"Why not printing `{pair}`?", "You printed:", ch.code(output))
     for dup in "aa", "bb", "mm", "zz", "yy":
         if dup in output:
             ch.fail(
