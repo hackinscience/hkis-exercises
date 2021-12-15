@@ -37,12 +37,12 @@ For the sake of her new love, provide Alice the function `affair_meet` that take
 ```ipython
 In [1]: from solution import affair_meet
 
-In [2]: alice = ['II', 'IV', 'II', 'XIX', 'XV', 'IV', 'II']
+In [2]: alice = ['Ⅱ', 'Ⅳ', 'Ⅱ', 'ⅩⅠⅩ', 'ⅩⅤ', 'Ⅳ', 'Ⅲ']
 
-In [3]: bob = ['IV', 'III', 'II', 'XX', 'II', 'XX']
+In [3]: bob = ['Ⅳ', 'Ⅲ', 'Ⅱ', 'ⅩⅩ', 'Ⅱ', 'ⅩⅩ']
 
-In [4]: silvester = ['XVIII', 'XIX', 'III', 'I', 'III', 'XVIII']
+In [4]: silvester = ['ⅩVⅢ', 'ⅩⅠⅩ', 'Ⅲ', 'Ⅰ', 'Ⅲ', 'ⅩVⅢ']
 
 In [5]: affair_meet(bob, alice, silvester)
-Out[5]: {'XIX'}
+Out[5]: {'ⅩⅠⅩ'}
 ```
