@@ -1007,7 +1007,13 @@ while I want to test {to_test} in less than 10s.""".format(
         original = square.copy()
         square[1:4, 1:4] = -1
         given = square.copy()
-        with checker.student_code():
+        with checker.student_code(
+            too_slow_message=[
+                "Your program looks too slow, looks like an infinite loop.",
+                "I called your function as:",
+                checker.code(f"dirichlet_square_solver({square!r})", "python"),
+            ],
+        ):
             dirichlet_square_solver(square)
         if not (original == square).all():
             checker.fail(
