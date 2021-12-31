@@ -338,7 +338,7 @@ def test_fir(i, expected):
         "Here what's your program printed:",
         helper.code(got),
         "Here's what I expected:",
-        expected,
+        helper.code(expected),
     )
 
 
