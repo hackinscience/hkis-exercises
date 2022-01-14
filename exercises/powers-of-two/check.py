@@ -9,9 +9,11 @@ ch.exclude_file_from_traceback(__file__)
 def check():
     solution = Path("solution.py").read_text()
     if solution.count("print") > 9:
-        return """Don't use 10 prints to print 10 numbers, use a for loop instead.
+        ch.fail(
+            """Don't use 10 prints to print 10 numbers, use a for loop instead.
 With a for loop, the computer does the job for you,
 here you're doing the job for the computer."""
+        )
     theirs = ch.run("solution.py")
     mine = "1\n2\n4\n8\n16\n32\n64\n128\n256\n512"
     if theirs == mine:
