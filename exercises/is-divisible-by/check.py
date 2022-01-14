@@ -54,6 +54,8 @@ EXPECTED = """0
 
 def check():
     stdout = checker.run("solution.py")
+    if not stdout:
+        checker.fail("You printed nothing! Did you forgot to call the print function?")
     messages = ["Here's your full output:", checker.code(stdout)]
     if "None" in stdout:
         checker.fail("You're printing `None`, why?", *messages)

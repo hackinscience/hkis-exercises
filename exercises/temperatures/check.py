@@ -23,6 +23,11 @@ def check_fahrenheit_to_celsius():
                 "Your `fahrenheit_to_celsius` function returned `None`, "
                 "did you forget to add a `return` statement?"
             )
+        if isinstance(their_c, complex):
+            fail(
+                "Your `fahrenheit_to_celsius` function returned a `complex` number, "
+                "I never heard about complex temperatures :p"
+            )
         try:
             if not isclose(celsius, their_c, rel_tol=1e-05, abs_tol=1e-05):
                 if f"{their_c:.2f}°C" != f"{celsius:.2f}°C":
