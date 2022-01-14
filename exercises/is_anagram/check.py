@@ -139,6 +139,16 @@ with ch.student_code():
 
 def main():
     shuffle(KNOWN_ANAGRAMS)
+    with ch.student_code():
+        response = is_anagram("ab", "aba")
+    if response:
+        ch.fail(
+            "`ab` and `aba` are **not** anagrams, quoting Wikipedia:",
+            "> An anagram is a word or phrase formed by rearranging the letters "
+            "of a different word or phrase, typically using all the original "
+            "letters exactly once.",
+        )
+
     for anagrams in KNOWN_ANAGRAMS:
         for a, b in permutations(anagrams, 2):
             with ch.student_code(
