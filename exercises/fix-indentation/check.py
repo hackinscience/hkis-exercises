@@ -35,7 +35,7 @@ def check():
     output = ch.run("solution.py")
     if output != EXPECTED:
         ch.fail("The code did not printed exactly what's the exercise is asking for.")
-    if solution.count("knock") > 1:
+    if solution.count("*knock*") > 1:
         ch.fail(
             "You modified the code, I see more than 1 `knock` in it now...",
             "You just need to fix indentation of the given code, not modify it.",
