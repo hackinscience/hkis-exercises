@@ -1,0 +1,14 @@
+{
+    "url": "https://www.hackinscience.org/api/exercises/113/",
+    "title": "Fix the indentation",
+    "title_en": "Fix the indentation",
+    "title_fr": "R\u00e9parer l'indentation",
+    "slug": "fix-indentation",
+    "is_published": false,
+    "position": 1500.0,
+    "created_at": "2022-01-14T09:43:57.561319+01:00",
+    "points": 1,
+    "author": "https://www.hackinscience.org/api/users/141/",
+    "category": "https://www.hackinscience.org/api/categories/2/",
+    "page": "https://www.hackinscience.org/api/pages/1/"
+}
