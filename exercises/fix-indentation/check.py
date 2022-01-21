@@ -34,7 +34,13 @@ def check():
         )
     output = ch.run("solution.py")
     if output != EXPECTED:
-        ch.fail("The code did not printed exactly what's the exercise is asking for.")
+        ch.fail(
+            "The code did not printed exactly what's the exercise is asking for, "
+            "it printed:",
+            ch.code(output),
+            "While I expected:",
+            ch.code(EXPECTED),
+        )
     if solution.count("*knock*") > 1:
         ch.fail(
             "You modified the code, I see more than 1 `knock` in it now...",

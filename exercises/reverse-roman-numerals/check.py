@@ -21,7 +21,7 @@ FROM_WIKIPEDIA = {
 
 
 for decimal, roman in FROM_WIKIPEDIA.items():
-    with student_code():
+    with student_code(prefix=f"While testing `from_roman_numeral({roman!r})`:"):
         result = from_roman_numeral(roman)
     if decimal != result:
         fail(

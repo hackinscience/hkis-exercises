@@ -8,7 +8,19 @@ from correction_helper import (
 
 exclude_file_from_traceback(__file__)
 
-KNOWN_vALUES = {1: 0, 2: 1, 3: 7, 4: 2, 5: 5, 6: 8, 7: 16, 8: 3, 9: 19, 27: 111}
+KNOWN_vALUES = {
+    1: 0,
+    2: 1,
+    3: 7,
+    4: 2,
+    5: 5,
+    6: 8,
+    7: 16,
+    8: 3,
+    9: 19,
+    27: 111,
+    1267189310707289: 314,
+}
 
 
 class TooShort(ValueError):

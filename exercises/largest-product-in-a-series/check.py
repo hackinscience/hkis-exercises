@@ -8,7 +8,7 @@ def check():
     try:
         output = int(output)
     except ValueError:
-        checker.fail("Expected you to print an integer.")
+        checker.fail("Expected you to print an integer, got:", checker.code(output))
     if output > 23514624000:
         checker.fail(
             "Where did your get this number? " "It's bigger that the one I found!"

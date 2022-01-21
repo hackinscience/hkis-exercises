@@ -23,7 +23,7 @@ with student_code():
 
 def check():
     for i, expected in FROM_WIKIPEDIA.items():
-        with student_code(prefix="While testing `to_roman_numeral({i!r})`:"):
+        with student_code(prefix=f"While testing `to_roman_numeral({i!r})`:"):
             theirs = to_roman_numeral(i)
         if theirs != expected:
             fail(

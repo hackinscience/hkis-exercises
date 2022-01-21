@@ -10,7 +10,13 @@ def check():
     try:
         output = int(output)
     except ValueError:
-        ch.fail("Expected an integer, got:", ch.code(output))
+        if output == "":
+            ch.fail("I expected your code to `print` an integer, it printed nothing ☹")
+        else:
+            ch.fail(
+                "I expected your code to `print` an integer, it printed:",
+                ch.code(output),
+            )
     if output > 100000007:
         ch.fail("It's less.")
     if output < 10000099:
