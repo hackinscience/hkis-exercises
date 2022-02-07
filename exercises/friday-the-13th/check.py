@@ -30,43 +30,49 @@ def is_a_friday_the_13th(day):
 def compare(at, theirs, mine):
     if theirs == mine:
         return  # Success
-    printable_theirs = repr(theirs).replace("FakeDate", "datetime.date")
+    if is_a_friday_the_13th(at):
+        message = _(
+            "I am time traveling to a friday the 13th ({at}), just to check your code…"
+        )
+
+    else:
+        message = _(
+            "I am time traveling to random day ({at}), just to check your code…."
+        )
+    head = [
+        message.format(at=at),
+        "Now I call your `friday_the_13th` function from here…",
+    ]
     if theirs is None:
         helper.fail(
-            "Your function is returning `None`, I expect it to `return` a string."
+            *head,
+            "Your function is returning `None`, I expect it to `return` a string.",
         )
+    printable_theirs = repr(theirs).replace("FakeDate", "datetime.date")
+    tail = [
+        _("Got:"),
+        helper.code(printable_theirs),
+    ]
     if not isinstance(theirs, str):
         helper.fail(
-            "You're expected to return a `str`, "
+            *head,
+            "Your function is expected to return a `str`, "
             "are you returning a `datetime` object instead?",
-            "Your `friday_the_13th` function returned:",
-            helper.code(printable_theirs),
+            *tail,
         )
     try:
         parse_date(theirs)
     except ValueError:
-        message = _(
-            """Your function is expected to return a string of the following format:
+        helper.fail(
+            *head,
+            _(
+                """Your function is expected to return a string of the following format:
 YYYY-MM-DD."""
-        )
-        helper.fail(message, _("Got:"), helper.code(printable_theirs))
-    message = []
-    if is_a_friday_the_13th(at):
-        message.append(
-            _(
-                """Say I time traveled to a friday the 13th (to {at}),
-just to check your code…"""
-            ).format(at=at)
-        )
-    elif not is_a_friday_the_13th(at):
-        message.append(
-            _(
-                """Say I time traveled to random day (to {at}),
-just to check your code…"""
-            ).format(at=at)
+            ),
+            *tail,
         )
     if is_a_friday_the_13th(at) and theirs != at and is_a_friday_the_13th(theirs):
-        message.append(
+        head.append(
             _(
                 """In the case your function is executed during a friday the 13th,
 it's expected to return the current friday the 13th, but you returned another one."""
@@ -74,17 +80,15 @@ it's expected to return the current friday the 13th, but you returned another on
         )
     else:
         if is_a_friday_the_13th(theirs):
-            message.append(
+            head.append(
                 _(
                     """Looks like you found a friday the 13th! But not the first one
 right after {at} (which is {next})."""
                 ).format(at=at, next=mine)
             )
         else:
-            message.append(_("It does not looks like a friday the 13th!"))
-    message.append(_("Got:"))
-    message.append(helper.code(theirs))
-    helper.fail(*message)
+            head.append(_("It does not looks like a friday the 13th!"))
+    helper.fail(*head, *tail)
 
 
 def main():

@@ -83,13 +83,13 @@ def generate_tests(is_valid: bool):
 @pytest.mark.parametrize("exercise_path,answer", generate_tests(is_valid=True))
 def test_exercise_shall_pass(exercise_path, answer):
     result = run_answer(Path(exercise_path), answer["source_code"])
-    assert result.returncode == 0, result
+    assert result.returncode == 0, result.stderr
 
 
 @pytest.mark.parametrize("exercise_path,answer", generate_tests(is_valid=False))
 def test_exercise_shall_not_pass(exercise_path, answer):
     result = run_answer(Path(exercise_path), answer["source_code"])
-    assert result.returncode != 0, result
+    assert result.returncode != 0, result.stderr
 
 
 @pytest.mark.parametrize("check_path", [str(p) for p in Path(".").glob("*/*/check.py")])

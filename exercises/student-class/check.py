@@ -71,6 +71,11 @@ I expected to get `'paris'` back, but you gave `{city_name!r}`""".format(
             """You `City.get_best_school` function is returning `None`,
 expected a `School` instance."""
         )
+    if not isinstance(best_school, School):
+        fail(
+            "`get_best_school` is expected to return a `School` instance, "
+            f"your implementation returned a `{type(best_school)}`"
+        )
     with student_code():
         paris_school_name = best_school.name
     if paris_school_name != "hkis":
