@@ -22,12 +22,14 @@ instructions), and click on the `→` button to continue to the next
 exercise.
 
 
-## Advice
+## What to do now
 
 Start by reading the [tutorial](https://docs.python.org/3/tutorial/).
 
-Don't hesitate to modify the code and click the `Submit` button as
-many times as needed to experiment with the syntax and possibilities.
+Play around with the code (modify the text, click `Submit`, drop a
+parenthesis, click `Submit`, add the parenthesis back, click `Submit`,
+...  as many times as needed to experiment with the syntax and
+possibilities.
 
 But beware, the bot will still want you to print `Hello world!` to
 validate the exercise!

@@ -20,12 +20,13 @@ bouton `→` permettant de passer à l'exercice suivant, devenu bleu pour
 l'occasion.
 
 
-## Conseils
+## Quoi faire ?
 
 Commencez par lire le [tutoriel officiel](https://docs.python.org/fr/3/tutorial/).
 
-N'hésitez pas à modifier le code et cliquer sur le bouton `Envoyer`
-pour voir ce qu'il se passe, autant de fois que vous voulez.
+Ensuite, modifiez le code proposé (changez le texte, cliquez sur le
+bouton `Envoyer`, enlevez une parenthèse, cliquez sur `Envoyer`,
+remettez la parenthèse, cliquez sur `Envoyer`, ...), pour vous familiariser avec la syntaxe du langage et le robot de correction.
 
-Mais attention, pour valider cet exercice, la moulinette attend
-vraiment que votre programme affiche `Hello world!` !
+Mais attention, pour valider cet exercice, le robot de correction
+attend vraiment que votre programme affiche `Hello world!` !
