@@ -9,7 +9,7 @@ Votre rendu est à rédiger dans l'éditeur de code (noir) à gauche.
 
 Mais c'est un exercice d'exemple, alors je l'ai déjà rédigé pour vous ☺
 
-Sous l'énoncé vous voyez plusieurs boutons, lee plus important est
+Sous l'énoncé vous voyez plusieurs boutons, le plus important est
  `Envoyer` : il envoie votre code à la moulinette de correction. La
  moulinette relira et testera votre code, puis vous indiquera si vous
  avez réussi, ou ce que vous devez améliorer.
