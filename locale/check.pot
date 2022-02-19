@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-02 14:28+0100\n"
+"POT-Creation-Date: 2022-02-19 17:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,118 +17,127 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: exercises/bencode-bdecode/check.py:83 exercises/bencode-bdecode/check.py:118
-#: exercises/bencode-bdecode/check.py:144
+#: exercises/bencode-bdecode/check.py:84 exercises/bencode-bdecode/check.py:119
+#: exercises/bencode-bdecode/check.py:145
 #, python-brace-format
 msgid "Wrong answer while testing `{thing}`"
 msgstr ""
 
-#: exercises/bencode-bdecode/check.py:86 exercises/bencode-bdecode/check.py:123
-#: exercises/bencode-bdecode/check.py:147 exercises/friday-the-13th/check.py:51
-#: exercises/friday-the-13th/check.py:84
-#: exercises/make-your-own-2048-in-python/check.py:30
-#: exercises/my-add/check.py:30 exercises/my-add/check.py:41
-#: exercises/my-date/check.py:65 exercises/my-date/check.py:74
-#: exercises/my-date/check.py:83 exercises/my-date/check.py:94
-#: exercises/print-even-numbers/check.py:24 exercises/side-by-side/check.py:48
+#: exercises/bencode-bdecode/check.py:87 exercises/bencode-bdecode/check.py:124
+#: exercises/bencode-bdecode/check.py:148 exercises/friday-the-13th/check.py:53
+#: exercises/make-your-own-2048-in-python/check.py:31
+#: exercises/my-add/check.py:31 exercises/my-add/check.py:42
+#: exercises/my-date/check.py:66 exercises/my-date/check.py:75
+#: exercises/my-date/check.py:84 exercises/my-date/check.py:95
+#: exercises/print-even-numbers/check.py:25 exercises/side-by-side/check.py:49
 msgid "Got:"
 msgstr ""
 
-#: exercises/bencode-bdecode/check.py:88 exercises/bencode-bdecode/check.py:125
-#: exercises/bencode-bdecode/check.py:149 exercises/my-add/check.py:32
+#: exercises/bencode-bdecode/check.py:89 exercises/bencode-bdecode/check.py:126
+#: exercises/bencode-bdecode/check.py:150 exercises/my-add/check.py:33
 msgid "Expected:"
 msgstr ""
 
-#: exercises/bencode-bdecode/check.py:97
+#: exercises/bencode-bdecode/check.py:98
 msgid "Beware: bencoded dicts keys should be lexicographically ordered."
 msgstr ""
 
-#: exercises/bencode-bdecode/check.py:154
+#: exercises/bencode-bdecode/check.py:155
 msgid "`bencode`/`bdecode` is not an easy one, but you owned it, congrats!"
 msgstr ""
 
-#: exercises/calculator1/check.py:87
+#: exercises/calculator1/check.py:54
+#, python-brace-format
 msgid ""
-"With no parameter, I expected you to print the usage line,\n"
-"you printed nothing.\n"
-"\n"
-"(Did you forgot to call your function? I'm asking for a program,\n"
-"not a function in this exercise)."
+"I called your program with: `{argv}` so I expected a usage line, but got:"
 msgstr ""
 
-#: exercises/calculator1/check.py:96
+#: exercises/calculator1/check.py:90
 msgid ""
-"With no parameter, I expected your program to print the usage\n"
-" line, but I got:"
+"With no parameter, I expected your program to print the usage line, you "
+"printed nothing."
 msgstr ""
 
-#: exercises/doing-http-requests/check.py:24
+#: exercises/calculator1/check.py:94
+msgid ""
+"(Did you forgot to call your function? I'm asking for a program, not a "
+"function in this exercise)."
+msgstr ""
+
+#: exercises/calculator1/check.py:100
+msgid ""
+"With no parameter, I expected your program to print the usage line, but I "
+"got:"
+msgstr ""
+
+#: exercises/doing-http-requests/check.py:25
 msgid "Your code printed nothing. I expected to get the Github API response."
 msgstr ""
 
-#: exercises/first-function/check.py:74
+#: exercises/first-function/check.py:76
 msgid "You should declare the `circle_perimeter` function, not import it."
 msgstr ""
 
-#: exercises/first-function/check.py:75 exercises/first-function/check.py:85
+#: exercises/first-function/check.py:77 exercises/first-function/check.py:87
 msgid "Use the following syntax to declare the function:"
 msgstr ""
 
-#: exercises/first-function/check.py:77
+#: exercises/first-function/check.py:79
 msgid "I will import it myself, to test it."
 msgstr ""
 
-#: exercises/first-function/check.py:84
+#: exercises/first-function/check.py:86
 msgid "You should declare the `circle_perimeter` function."
 msgstr ""
 
-#: exercises/first-function/check.py:113
+#: exercises/first-function/check.py:115
 msgid "I tested your function thouroughly and it works like a charm!"
 msgstr ""
 
-#: exercises/friday-the-13th/check.py:48
+#: exercises/fix-indentation/check.py:29
+msgid "You emptied the code area, here's what there was, just copy paste it:"
+msgstr ""
+
+#: exercises/friday-the-13th/check.py:35
+#, python-brace-format
+msgid ""
+"I am time traveling to a friday the 13th ({at}), just to check your code…"
+msgstr ""
+
+#: exercises/friday-the-13th/check.py:40
+#, python-brace-format
+msgid "I am time traveling to random day ({at}), just to check your code…."
+msgstr ""
+
+#: exercises/friday-the-13th/check.py:69
 msgid ""
 "Your function is expected to return a string of the following format:\n"
 "YYYY-MM-DD."
 msgstr ""
 
-#: exercises/friday-the-13th/check.py:56
-#, python-brace-format
-msgid ""
-"Say I time traveled to a friday the 13th (to {at}),\n"
-"just to check your code…"
-msgstr ""
-
-#: exercises/friday-the-13th/check.py:63
-#, python-brace-format
-msgid ""
-"Say I time traveled to random day (to {at}),\n"
-"just to check your code…"
-msgstr ""
-
-#: exercises/friday-the-13th/check.py:70
+#: exercises/friday-the-13th/check.py:77
 msgid ""
 "In the case your function is executed during a friday the 13th,\n"
 "it's expected to return the current friday the 13th, but you returned "
 "another one."
 msgstr ""
 
-#: exercises/friday-the-13th/check.py:78
+#: exercises/friday-the-13th/check.py:85
 #, python-brace-format
 msgid ""
 "Looks like you found a friday the 13th! But not the first one\n"
 "right after {at} (which is {next})."
 msgstr ""
 
-#: exercises/friday-the-13th/check.py:83
+#: exercises/friday-the-13th/check.py:90
 msgid "It does not looks like a friday the 13th!"
 msgstr ""
 
-#: exercises/friday-the-13th/check.py:119
+#: exercises/friday-the-13th/check.py:125
 msgid "What a chance, you're doing this exercise on a friday the 13th ☺"
 msgstr ""
 
-#: exercises/hello-world/check.py:19
+#: exercises/hello-world/check.py:20
 msgid ""
 "You wrote no code (in the black area, which is a code editor).\n"
 "\n"
@@ -137,14 +146,14 @@ msgid ""
 "the [tutorial](https://docs.python.org/3/tutorial/)."
 msgstr ""
 
-#: exercises/hello-world/check.py:29
+#: exercises/hello-world/check.py:30
 msgid ""
 "You need to use the\n"
 "[print](https://docs.python.org/3/library/functions.html#print) function\n"
 "in order to make Python print something."
 msgstr ""
 
-#: exercises/hello-world/check.py:37
+#: exercises/hello-world/check.py:38
 msgid ""
 "\"Hello world!\" is a string, in Python strings should be enclosed\n"
 " in quotes or double quotes.\n"
@@ -152,7 +161,7 @@ msgid ""
 "https://docs.python.org/3/tutorial/introduction.html#strings)"
 msgstr ""
 
-#: exercises/hello-world/check.py:56
+#: exercises/hello-world/check.py:57
 msgid ""
 "You're not in an\n"
 "[interactive Python interpreter](\n"
@@ -165,99 +174,99 @@ msgid ""
 "function."
 msgstr ""
 
-#: exercises/hello-world/check.py:67
+#: exercises/hello-world/check.py:68
 msgid ""
 "You should print \"Hello World!\", not something else to validate this "
 "exercise."
 msgstr ""
 
-#: exercises/hello-world/check.py:71
+#: exercises/hello-world/check.py:72
 msgid "You printed nothing :("
 msgstr ""
 
-#: exercises/hello-world/check.py:73
+#: exercises/hello-world/check.py:74
 msgid "You printed:"
 msgstr ""
 
-#: exercises/my-add/check.py:23
+#: exercises/my-add/check.py:24
 msgid "I expect you to print the usage line when no parameters are given."
 msgstr ""
 
-#: exercises/my-add/check.py:27
+#: exercises/my-add/check.py:28
 msgid "(got nothing)"
 msgstr ""
 
-#: exercises/my-date/check.py:19
+#: exercises/my-date/check.py:20
 msgid "You printed nothing!"
 msgstr ""
 
-#: exercises/my-date/check.py:21
+#: exercises/my-date/check.py:22
 msgid "You printed the example, please print the current date."
 msgstr ""
 
-#: exercises/my-date/check.py:25
+#: exercises/my-date/check.py:26
 msgid ""
 "A good way to import the datetime class from the datetime module is:\n"
 "\n"
 "    from datetime import datetime\n"
 msgstr ""
 
-#: exercises/my-date/check.py:32
+#: exercises/my-date/check.py:33
 msgid "I expect it to be in a single line, got:"
 msgstr ""
 
-#: exercises/my-date/check.py:46
+#: exercises/my-date/check.py:47
 msgid "The date seems wrong, I need the current date."
 msgstr ""
 
-#: exercises/my-date/check.py:47
+#: exercises/my-date/check.py:48
 msgid "Your code prints:"
 msgstr ""
 
-#: exercises/my-date/check.py:64 exercises/my-date/check.py:73
+#: exercises/my-date/check.py:65 exercises/my-date/check.py:74
 msgid "The date format seems wrong."
 msgstr ""
 
-#: exercises/my-date/check.py:67
+#: exercises/my-date/check.py:68
 msgid "It should start with 'Today is'."
 msgstr ""
 
-#: exercises/my-date/check.py:76
+#: exercises/my-date/check.py:77
 msgid "I expected to see 'and it is' between the date and the hour."
 msgstr ""
 
-#: exercises/my-date/check.py:82
+#: exercises/my-date/check.py:83
 msgid "The date part is not correct."
 msgstr ""
 
-#: exercises/my-date/check.py:85
+#: exercises/my-date/check.py:86
 msgid "Expected the format: `YYYY-MM-DD`."
 msgstr ""
 
-#: exercises/my-date/check.py:93
+#: exercises/my-date/check.py:94
 msgid "The hour part is not correct."
 msgstr ""
 
-#: exercises/my-date/check.py:96
+#: exercises/my-date/check.py:97
 msgid "Expected the format: `HH:MM:SS`."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:21
+#: exercises/print-even-numbers/check.py:22
 #, python-brace-format
 msgid "I tried `print_even_numbers({start}, {stop})`"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:28
+#: exercises/print-even-numbers/check.py:29
 msgid "You printed odd numbers, I need even numbers."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:32
+#: exercises/print-even-numbers/check.py:33
 msgid ""
 "Looks like you included the end bound, but I need your function to exclude "
 "it, exactly like Python's range function does."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:41
+#: exercises/print-even-numbers/check.py:42
 #, python-brace-format
 msgid ""
 "I tried `print_even_numbers({start}, {stop})` and it printed nothing,\n"
@@ -265,78 +274,78 @@ msgid ""
 "[print](https://docs.python.org/3/library/functions.html#print) function?"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:53
+#: exercises/print-even-numbers/check.py:54
 msgid "Can't parse the first line as an integer."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:54
+#: exercises/print-even-numbers/check.py:55
 msgid "You need to put a single number per line."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:59
+#: exercises/print-even-numbers/check.py:60
 #, python-brace-format
 msgid "One line {line}, you gave something I can't parse as an integer:"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:67
+#: exercises/print-even-numbers/check.py:68
 #, python-brace-format
 msgid "One line {line}, you gave an **odd** number, I need **even** numbers:"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:76
+#: exercises/print-even-numbers/check.py:77
 msgid ""
 "You displayed all numbers but one,\n"
 "but I need only [even](https://en.wikipedia.org/wiki/Parity_(mathematics)) "
 "numbers!"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:84
+#: exercises/print-even-numbers/check.py:85
 msgid ""
 "You displayed all numbers (in the right range),\n"
 "but I need only even numbers."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:92
+#: exercises/print-even-numbers/check.py:93
 msgid ""
 "You displayed all numbers, but I need only even numbers\n"
 "(and Python's range is half-open: start is included, stop is excluded!)"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:99
-#: exercises/print-even-numbers/check.py:103
+#: exercises/print-even-numbers/check.py:100
+#: exercises/print-even-numbers/check.py:104
 msgid "Python's range is half-open (start included, stop excluded)."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:108
+#: exercises/print-even-numbers/check.py:109
 #, python-brace-format
 msgid "You started at {s1} when I called your function with `start={s2}`."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:113
+#: exercises/print-even-numbers/check.py:114
 msgid "I need one number per line"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:117
+#: exercises/print-even-numbers/check.py:118
 msgid "I tried to call `print_even_numbers{args!r}`:"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:150
+#: exercises/print-even-numbers/check.py:151
 msgid ""
 "Looks like your function is ignoring the given `start` and `stop` arguments."
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:153
+#: exercises/print-even-numbers/check.py:154
 msgid "For example, when I call `print_even_numbers(0, 10)` I get:"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:155
+#: exercises/print-even-numbers/check.py:156
 msgid "And, when I call `print_even_numbers(10, 20)` I get:"
 msgstr ""
 
-#: exercises/print-even-numbers/check.py:162
+#: exercises/print-even-numbers/check.py:163
 msgid "Nicely done! I love even numbers!"
 msgstr ""
 
-#: exercises/side-by-side/check.py:47
+#: exercises/side-by-side/check.py:48
 msgid "Your function is expected to return a string."
 msgstr ""

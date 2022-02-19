@@ -5,7 +5,7 @@ import subprocess
 import correction_helper as ch
 
 ch.exclude_file_from_traceback(__file__)
-_ = gettext.translation(
+gettext = gettext.translation(
     "check", "/opt/hkis-celery/exercises/locale/", fallback=True
 ).gettext
 
@@ -50,8 +50,10 @@ def test_program(argv, expect):
     if expect is False:
         if all(usage not in got for usage in USAGE):
             ch.fail(
-                f"""I called your program with: `{' '.join(argv)}`,
-so I expected a usage line, but got:""",
+                gettext(
+                    "I called your program with: `{argv}` "
+                    "so I expected a usage line, but got:"
+                ).format(" ".join(argv)),
                 ch.code(got) if "## " not in got else got,
             )
         return
@@ -84,18 +86,19 @@ def check():
     if all(usage not in output for usage in USAGE):
         if output == "":
             ch.fail(
-                _(
-                    """With no parameter, I expected you to print the usage line,
-you printed nothing.
-
-(Did you forgot to call your function? I'm asking for a program,
-not a function in this exercise)."""
-                )
+                gettext(
+                    "With no parameter, I expected your program "
+                    "to print the usage line, you printed nothing."
+                ),
+                gettext(
+                    "(Did you forgot to call your function? I'm asking for a program, "
+                    "not a function in this exercise)."
+                ),
             )
         ch.fail(
-            _(
-                """With no parameter, I expected your program to print the usage
- line, but I got:"""
+            gettext(
+                "With no parameter, I expected your program to print the usage "
+                "line, but I got:"
             ),
             output if "## " in output else ch.code(output),
         )
@@ -113,7 +116,7 @@ not a function in this exercise)."""
             "The power operator in Python is `**`",
         )
 
-    test_program(["2", "^", "32"], 2 ** 32)
+    test_program(["2", "^", "32"], 2**32)
     test_program(["1", "1", "1"], None)
     test_program(["a", "1", "1"], None)
     test_program(["5", "/", "0"], None)
