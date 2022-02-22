@@ -1,13 +1,11 @@
-Print the number of characters in the given paragraph.
+Print the number of characters in the following paragraph:
 
-I prefilled the answer box with the paragraph, and assigned it the
-name `whetting_your_appetite`.
-
-Just in case you lose it, here it is, so you can copy/paste it:
-
-```python
-whetting_your_appetite = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+```text
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
 ```
+
+I prefilled the answer box with the paragraph as a Python string, and
+assigned it the name `whetting_your_appetite`.
 
 
 ## Advice

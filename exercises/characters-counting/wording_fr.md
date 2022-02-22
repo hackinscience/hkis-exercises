@@ -1,14 +1,12 @@
-Affichez le nombre de caractères du paragraphe suivant.
+Affichez le nombre de caractères du paragraphe suivant :
 
-J'ai pré-rempli la zone de code avec le paragraphe, que j'ai nommé en
-utilisant une variable `whetting_your_appetite`.
-
-Au cas où vous le supprimiez par erreur, en voicie une copie, que vous
-puissiez le copier/coller :
-
-```python
-whetting_your_appetite = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+```text
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
 ```
+
+J'ai pré-rempli la zone de code avec le paragraphe, sous forme d'une chaîne
+de caractères (entre guillemets), que j'ai nommé `whetting_your_appetite` (c'est ce qu'on appelle « une variable »).
+
 
 ## Conseils
 
