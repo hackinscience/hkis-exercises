@@ -23,7 +23,7 @@ def run(file, *args):
         [
             "python3",
             "-m",
-            "friendly",
+            "friendly_traceback",
             "--formatter",
             "correction_helper.friendly_traceback_markdown",
             file,
