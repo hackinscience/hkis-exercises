@@ -1,4 +1,4 @@
-correction-helper>=2021.11.7
+correction-helper>=2022.2
 django
 flake8
 flake8-bugbear
