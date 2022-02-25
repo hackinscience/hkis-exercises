@@ -2,9 +2,10 @@ Implementez les classes `Dish` et `Menu` comme suit :
 
 - Dish a les attributs  `name`, `preparation_time` et `dish_type`, donnés dans cet ordre au moment de l'initialisation.
 - La valeur de l'attribut `dish_type` dans la classe Dish peut être l'une des suivantes :
-  - starter
-  - dish
-  - dessert
+    - starter
+    - dish
+    - dessert
+
 
 - Menu a l'attribut `name`, donné au moment de l'initialisation.
 - Menu a la méthode `add_dish(dish)`.
@@ -14,14 +15,15 @@ Implementez les classes `Dish` et `Menu` comme suit :
 - Menu a une méthode `get_desserts()` donnant tous les Dish ayant un `dish_type` ayant pour valeur "dessert".
 
 - Menu a la méthode `get_minimum_preparation_time()` renvoyant la somme de :
-   - la plus petite valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "starter" `dish_type` (0 s'il n'y a aucune `dish_type` starter)
-   - la plus petite valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "dish" `dish_type` (0 s'il n'y a aucune `dish_type` dish)
-   - la plus petite valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "dessert" `dish_type` (0 s'il n'y a aucune `dish_type` dessert)
+    - la plus petite valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "starter" `dish_type` (0 s'il n'y a aucune `dish_type` starter)
+    - la plus petite valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "dish" `dish_type` (0 s'il n'y a aucune `dish_type` dish)
+    - la plus petite valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "dessert" `dish_type` (0 s'il n'y a aucune `dish_type` dessert)
+
 
 - Menu a une méthode `get_maximum_preparation_time()` renvoyant la somme de :
-   - la plus grande valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "starter" `dish_type` (0 s'il n'y a aucune `dish_type` starter)
-   - la plus grande valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "dish" `dish_type` (0 s'il n'y a aucune `dish_type` dish)
-   - la plus grande valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "dessert" `dish_type` (0 s'il n'y a aucune `dish_type` dessert)
+    - la plus grande valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "starter" `dish_type` (0 s'il n'y a aucune `dish_type` starter)
+    - la plus grande valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "dish" `dish_type` (0 s'il n'y a aucune `dish_type` dish)
+    - la plus grande valeur `preparation_time` de tous les Dish présents dans le Menu avec l'attribut `dish_type` ayant pour valeur "dessert" `dish_type` (0 s'il n'y a aucune `dish_type` dessert)
 
 - Lorsque vous additionnez 2 objets `Menu` avec l'opérateur `+`, cela retourne un troisième menu contenant tous les Dish des 2 objets 2 Menu et ayant l'attribut `name` étant les 2 `name` des Menu `name` séparés par " & ".
 
@@ -35,13 +37,13 @@ Implementez les classes `Dish` et `Menu` comme suit :
 One & Two
 ```
 
-  
+
 
 - Lorsque vous utilisez la fonction print() sur un objet `Menu` cela doit :
 
-  - Afficher le `name` de chaque Dish, 1 par ligne, triés par `dish_type` (starter, dish, dessert) et leur `preparation_time` (du plus petit au plus grand)
-  - Séparer chaque nouveau `dish_type` par une ligne vide
-  - Ajouter le `dish_type`, tout en majuscule, avant tous les Dish ayant le-dit `dish_type`
+    - Afficher le `name` de chaque Dish, 1 par ligne, triés par `dish_type` (starter, dish, dessert) et leur `preparation_time` (du plus petit au plus grand)
+    - Séparer chaque nouveau `dish_type` par une ligne vide
+    - Ajouter le `dish_type`, tout en majuscule, avant tous les Dish ayant le-dit `dish_type`
 
 
 

@@ -1,4 +1,4 @@
-from correction_helper import exclude_file_from_traceback, fail, student_code
+from correction_helper import exclude_file_from_traceback, fail, student_code, code
 
 exclude_file_from_traceback(__file__)
 
@@ -80,12 +80,11 @@ def check():
     ):
         fail(
             "If I create a menu with multiple dishes, starters and desserts, "
-            "and try to get only the starters, I don't get the expected values."
-            "I get {dishes_len!r} dishes"
-            " and {dtype!r} dishes types\n"
-            "But I wanted 1 dishe and 1 dish_type".format(
+            "and try to get only the starters, I don't get the expected values.",
+            "I get {dishes_len!r} dishes and {dtype!r} dishes types\n".format(
                 dishes_len=len(monday_starters), dtype=len(dishes_types)
-            )
+            ),
+            "But I wanted 1 dish and 1 dish_type",
         )
 
     with student_code(prefix="While getting all the dishes on a `Menu` object"):
@@ -99,12 +98,11 @@ def check():
     ):
         fail(
             "If I create a menu with multiple dishes, starters and desserts, "
-            "and try to get only the dishes, I don't get the expected values."
-            "I get {dishes_len!r} dishes"
-            " for {dtype!r} dishes types\n"
-            "But I wanted 1 dishe and 1 dish_type".format(
+            "and try to get only the dishes, I don't get the expected values.",
+            "I get {dishes_len!r} dishes for {dtype!r} dishes types\n".format(
                 dishes_len=len(monday_dishes), dtype=len(dishes_types)
-            )
+            ),
+            "But I wanted 1 dish and 1 dish_type",
         )
 
     with student_code(prefix="While getting all the desserts on a `Menu` object"):
@@ -118,12 +116,11 @@ def check():
     ):
         fail(
             "If I create a menu with multiple dishes, starters and desserts, "
-            "and try to get only the desserts, I don't get the expected values."
-            "I get {dishes_len!r} dishes"
-            " and {dtype!r} dishes types\n"
-            "But I wanted 1 dishe and 1 dish_type".format(
+            "and try to get only the desserts, I don't get the expected values.",
+            "I get {dishes_len!r} dishes and {dtype!r} dishes types\n".format(
                 dishes_len=len(monday_desserts), dtype=len(dishes_types)
-            )
+            ),
+            "But I wanted 1 dish and 1 dish_type",
         )
 
     with student_code(
@@ -205,12 +202,10 @@ def check():
     if menu_output != menu_to_check:
         fail(
             "If I print a `Menu` item, I don't get the expected output.",
-            "I expected the following output:\n```{good_output!r}```\n".format(
-                good_output=menu_to_check
-            ),
-            "But you gave:\n```{student_output!r}```".format(
-                student_output=menu_output
-            ),
+            "I expected the following output:",
+            code(menu_to_check),
+            "But you gave:",
+            code(menu_output),
         )
 
 
