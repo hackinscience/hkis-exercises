@@ -2,7 +2,7 @@
     "url": "https://www.hackinscience.org/api/exercises/21/",
     "title": "Sum of even numbers <= 100",
     "title_en": "Sum of even numbers <= 100",
-    "title_fr": "Sum of even numbers <= 100",
+    "title_fr": "Somme des nombres pairs <= 100",
     "slug": "sum-of-even-numbers-below-100",
     "is_published": true,
     "position": 3325.14084507042,

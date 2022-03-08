@@ -1,8 +1,8 @@
 {
     "url": "https://www.hackinscience.org/api/exercises/48/",
     "title": "Print the content of the file 'words'",
-    "title_en": "Print the content of the file 'words'",
-    "title_fr": "Print the content of the file 'words'",
+    "title_en": "Print the content of a file",
+    "title_fr": "Afficher le contenu d'un fichier",
     "slug": "print-the-content-of-the-file-words",
     "is_published": true,
     "position": 4466.59154929577,

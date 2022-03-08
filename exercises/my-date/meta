@@ -1,8 +1,8 @@
 {
     "url": "https://www.hackinscience.org/api/exercises/19/",
     "title": "my date",
-    "title_en": "my date",
-    "title_fr": "my date",
+    "title_en": "Display the date and time",
+    "title_fr": "Afficher la date et l'heure",
     "slug": "my-date",
     "is_published": true,
     "position": 4460.0,

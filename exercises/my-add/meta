@@ -1,8 +1,8 @@
 {
     "url": "https://www.hackinscience.org/api/exercises/17/",
     "title": "my add",
-    "title_en": "my add",
-    "title_fr": "my add",
+    "title_en": "Simple adder",
+    "title_fr": "Petit additionneur",
     "slug": "my-add",
     "is_published": true,
     "position": 4184.29577464789,

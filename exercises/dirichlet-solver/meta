@@ -2,7 +2,7 @@
     "url": "https://www.hackinscience.org/api/exercises/104/",
     "title": "Dirichlet solver",
     "title_en": "Dirichlet solver",
-    "title_fr": "Dirichlet solver",
+    "title_fr": "Résoudre des carrés de Dirichlet",
     "slug": "dirichlet-solver",
     "is_published": true,
     "position": 5000.0,

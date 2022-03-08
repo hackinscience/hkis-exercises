@@ -2,7 +2,7 @@
     "url": "https://www.hackinscience.org/api/exercises/34/",
     "title": "Check if a number is prime",
     "title_en": "Check if a number is prime",
-    "title_fr": "Check if a number is prime",
+    "title_fr": "Ce nombre est-il premier ?",
     "slug": "is-prime",
     "is_published": true,
     "position": 4350.0,
