@@ -6,19 +6,14 @@ exclude_file_from_traceback(__file__)
 with student_code():
     from solution import Dish, Menu
 
-
 menu_to_check = """STARTER
-Eggs & Mayonnaise
-Salad
+Eggs
 
 DISH
-burger
-pizza
 Coq au vin
 
 DESSERT
-Chocolate Cookie
-Waffles"""
+Chocolate Cookie"""
 
 
 def check():
@@ -40,6 +35,12 @@ def check():
 
         menu_tuesday.add_dish(Dish("Coq au vin", 60, "dish"))
         menu_tuesday.add_dish(Dish("Chocolate Cookie", 8, "dessert"))
+
+    with student_code(prefix="While building a menu"):
+        simple_menu = Menu("Simple")
+        simple_menu.add_dish(Dish("Eggs", 5, "starter"))
+        simple_menu.add_dish(Dish("Coq au vin", 60, "dish"))
+        simple_menu.add_dish(Dish("Chocolate Cookie", 8, "dessert"))
 
     with student_code(prefix="While we are comparing `Dish` objects with operator"):
         pizza_lt_burger = pizza < burger
@@ -174,14 +175,16 @@ def check():
     with student_code(prefix="While adding 2 `Menu` items with `+` operator"):
         menu_montue = menu_monday + menu_tuesday
 
-    if (
-        sorted(menu_montue.get_starters())
-        != sorted(menu_monday.get_starters() + menu_tuesday.get_starters())
-        or sorted(menu_montue.get_dishes())
-        != sorted(menu_monday.get_dishes() + menu_tuesday.get_dishes())
-        or sorted(menu_montue.get_desserts())
-        != sorted(menu_monday.get_desserts() + menu_tuesday.get_desserts())
-    ):
+    with student_code(prefix="While sorting dishes"):
+        result = (
+            sorted(menu_montue.get_starters())
+            != sorted(menu_monday.get_starters() + menu_tuesday.get_starters())
+            or sorted(menu_montue.get_dishes())
+            != sorted(menu_monday.get_dishes() + menu_tuesday.get_dishes())
+            or sorted(menu_montue.get_desserts())
+            != sorted(menu_monday.get_desserts() + menu_tuesday.get_desserts())
+        )
+    if result:
         fail(
             "If I add 2 `Menu` items with the `+` operator, "
             "I don't have all the `Dish` of the 2 `Menu`s"
@@ -197,7 +200,7 @@ def check():
         )
 
     with student_code(prefix="While printing `Menu` item"):
-        menu_output = str(menu_montue)
+        menu_output = str(simple_menu)
 
     if menu_output != menu_to_check:
         fail(
