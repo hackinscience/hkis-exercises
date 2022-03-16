@@ -148,7 +148,15 @@ def main():
             "of a different word or phrase, typically using all the original "
             "letters exactly once.",
         )
-
+    with ch.student_code():
+        response = is_anagram("xxy", "xyy")
+    if response:
+        ch.fail(
+            "`xxy` and `xyy` are **not** anagrams, quoting Wikipedia:",
+            "> An anagram is a word or phrase formed by rearranging the letters "
+            "of a different word or phrase, typically using all the original "
+            "letters exactly once.",
+        )
     for anagrams in KNOWN_ANAGRAMS:
         for a, b in permutations(anagrams, 2):
             with ch.student_code(
