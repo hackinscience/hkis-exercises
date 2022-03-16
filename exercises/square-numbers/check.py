@@ -17,6 +17,9 @@ here you're doing the job for the computer."""
     theirs = checker.run("solution.py")
     mine = "0\n1\n4\n9\n16\n25\n36\n49\n64\n81"
     if theirs == mine:
+        print(checker.congrats())
+        print("\nYou printed:\n")
+        print(checker.code(theirs))
         sys.exit(0)  # Success!
     if theirs.count("\n") > 100:
         checker.fail(
@@ -50,10 +53,10 @@ explanation, nothing.  Just the number.""",
         checker.fail("Did you forgot to print something?")
 
     errors = []
-    if their_numbers == [x ** 2 for x in range(1, 11)]:
+    if their_numbers == [x**2 for x in range(1, 11)]:
         errors.append("For me the first square is `0 ** 2`, not `1 ** 2`.")
-    if their_numbers[:6] == [2 ** x for x in range(6)] or their_numbers[:6] == [
-        2 ** x for x in range(1, 7)
+    if their_numbers[:6] == [2**x for x in range(6)] or their_numbers[:6] == [
+        2**x for x in range(1, 7)
     ]:
         errors.append(
             """This looks powers of two (1, 2, 4, 8, 16, 32, 64, ...),
@@ -68,9 +71,9 @@ The square of n is n², not 2ⁿ.
         errors.append("This looks like natural numbers, not square numbers.")
     if their_numbers[:6] == [i * 2 for i in range(6)]:
         errors.append("This looks like even numbers, not squares.")
-    if their_numbers[:6] == [x ** 10 for x in range(6)]:
+    if their_numbers[:6] == [x**10 for x in range(6)]:
         errors.append("This is x<sup>10</sup>, but I need x<sup>2</sup>.")
-    if their_numbers[:6] == [x ** 10 for x in range(1, 7)]:
+    if their_numbers[:6] == [x**10 for x in range(1, 7)]:
         errors.append("This is x<sup>10</sup>, but I need x<sup>2</sup>.")
     if len(their_numbers) != 10:
         if len(their_numbers) == 1:
@@ -89,7 +92,7 @@ The square of n is n², not 2ⁿ.
             checker.code(theirs),
         )
     for line, number in enumerate(their_numbers):
-        if number != line ** 2:
+        if number != line**2:
             if line == 0:
                 checker.fail(
                     f"""On the first line, I expected {line}<sup>2</sup>, which is {line ** 2},
