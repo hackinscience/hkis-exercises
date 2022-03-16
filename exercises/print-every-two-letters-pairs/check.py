@@ -7,31 +7,9 @@ import correction_helper as checker
 checker.exclude_file_from_traceback(__file__)
 
 
-class FlattenVisitor(ast.NodeVisitor):
-    def __init__(self, **kwargs):
-        self.nodes = []
-        super().__init__(**kwargs)
-
-    def generic_visit(self, node):
-        self.nodes.append(node)
-        super().generic_visit(node)
-
-
 def check():
     output = checker.run("solution.py")
-    solution = Path("solution.py").read_text()
-    tree = ast.parse(solution)
-    flat = FlattenVisitor()
-    flat.visit(tree)
-    for node in flat.nodes:
-        if isinstance(node, ast.Call) and isinstance(node.func, ast.Name):
-            if node.func.id == "list":
-                checker.fail(
-                    "Don't transform a string to a list.",
-                    "A string is already, like a list, a sequence.",
-                    "(remove any call to the `list` function from you code, "
-                    "you really don't need them)",
-                )
+    solution = Path("solution.py").read_text(encoding="UTF-8")
     if all(letter in solution for letter in string.ascii_lowercase):
         checker.fail(
             "Don't type the whole alphabet manually.",
@@ -57,7 +35,7 @@ def check():
             "which I don't expect. I expect:",
             checker.code("> ab"),
             "instead.",
-            "Notice the"
+            "Notice the "
             "[print](https://docs.python.org/3/library/functions.html#print)"
             "function automatically adds a space between each given parameters by"
             "default.",
@@ -123,6 +101,9 @@ def check():
             checker.fail(
                 "Wrong, sry, don't know why. Your code printed:", checker.code(output)
             )
+    print(checker.congrats())
+    print("\nYour code printed:\n")
+    print(checker.code(output))
 
 
 if __name__ == "__main__":
