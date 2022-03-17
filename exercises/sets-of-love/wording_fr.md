@@ -2,8 +2,6 @@
 
 Once upon a time, in Paris, the city of romance, Bob and Alice met and fall in love with each other.
 
-![Love](https://cdn4.iconfinder.com/data/icons/small-n-flat/24/heart-128.png)
-
 
 ## Exercise 1
 

@@ -37,8 +37,6 @@ Out[4]: {'Ⅱ', 'Ⅳ'}
 
 Time goes on, and love goes by...
 
-![broke](https://image.flaticon.com/icons/png/128/805/805031.png)
-
 Alice is bored and get a crush for the strong and handsome
 Silvester. In order to have an affair with Silvester she must find out
 where both Silvester and her go during the day. But to avoid an

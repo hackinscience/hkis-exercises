@@ -1,4 +1,4 @@
-You're working for a restaurant and they're asking you to genrate the sorbet menu.
+You're working for a restaurant and they're asking you to generate the sorbet menu.
 
 
 Provide a script printing every possible sorbet duos from a given list
