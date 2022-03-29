@@ -37,6 +37,7 @@ if __name__ == "__main__":
             "representation of an object, but escape the non-ASCII "
             "characters in the string returned by repr() using "
             "\\x, \\u or \\U escapes.",
+            "Test with ee.",
         ):
             check(check_string)
     finally:
