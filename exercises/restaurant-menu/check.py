@@ -190,12 +190,14 @@ def check():
             "I don't have all the `Dish` of the 2 `Menu`s"
         )
 
-    if menu_montue.name != "Monday & Tuesday":
+    with student_code(prefix="While trying to get the name of a menu"):
+        menu_montue_name = menu_montue.name
+    if menu_montue_name != "Monday & Tuesday":
         fail(
             "If I add 2 `Menu` items with the `+` operator, "
             "I don't have the wanted name.",
             "I expected to get `Monday & Tuesday`, but it's `{name!r}`".format(
-                name=menu_montue.name
+                name=menu_montue_name
             ),
         )
 
