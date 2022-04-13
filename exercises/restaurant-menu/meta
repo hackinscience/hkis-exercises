@@ -4,7 +4,7 @@
     "title_en": "Restaurant menu",
     "title_fr": "Menu de restaurant",
     "slug": "restaurant-menu",
-    "is_published": false,
+    "is_published": true,
     "position": 4533.0,
     "created_at": "2022-02-24T10:44:05.934724+01:00",
     "points": 30,
