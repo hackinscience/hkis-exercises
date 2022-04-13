@@ -68,7 +68,12 @@ print(60 * 60)
         if rest:
             message.append("It's roughly equivalent to {} days.".format(days))
         else:
-            message.append("It's {} days (I want `365` days).".format(days))
+            message.append(
+                """It's the number of seconds in {} days
+(I want the number of seconds in `365` days).""".format(
+                    days
+                )
+            )
     checker.fail(*message)
 
 
