@@ -53,7 +53,7 @@ def test_program(argv, expect):
                 gettext(
                     "I called your program with: `{argv}` "
                     "so I expected a usage line, but got:"
-                ).format(" ".join(argv)),
+                ).format(argv=" ".join(argv)),
                 ch.code(got) if "## " not in got else got,
             )
         return
