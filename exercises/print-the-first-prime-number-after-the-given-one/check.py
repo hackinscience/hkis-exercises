@@ -18,11 +18,11 @@ def check():
                 ch.code(output),
             )
     if output > 100000007:
-        ch.fail("It's less.")
+        ch.fail("It's less, your code printed:", str(output))
     if output < 10000099:
-        ch.fail("It's way more, like 10× more.")
+        ch.fail("It's way more, like 10× more, your code printed:", str(output))
     if output < 100000007:
-        ch.fail("It's more.")
+        ch.fail("It's more, your code printed:", str(output))
     their_code = Path("solution.py").read_text()
     if "100000007" in their_code and len(their_code) < 25:
         ch.fail("I see what you did here.")
