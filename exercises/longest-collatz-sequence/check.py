@@ -19,7 +19,6 @@ KNOWN_vALUES = {
     8: 3,
     9: 19,
     27: 111,
-    1267189310707289: 314,
 }
 
 
@@ -43,6 +42,25 @@ def flight(i, n):
 
 with student_code():
     from solution import collatz_length
+
+
+def check_float_usage():
+    if collatz_length(1267189310707289) == 495:
+        fail(
+            """Beware, by dividing using a true division (`/` operator) Python gives
+you a float.
+Float [have limited precision](https://docs.python.org/3/tutorial/floatingpoint.html)
+
+You should better use an integer division (`//` operator) as you know it's divisible,
+to keep using integers (which have no limit in Python).
+"""
+        )
+    if collatz_length(1267189310707289) != 314:
+        fail(
+            "For `collatz_length(1267189310707289)`, I do not agree, "
+            "I think it's `314`, "
+            f"you said it's `{collatz_length(1267189310707289)}`."
+        )
 
 
 def check_with_known_values():
@@ -88,6 +106,7 @@ def check_by_flying_it():
 
 
 if __name__ == "__main__":
+    check_float_usage()
     check_with_known_values()
     check_by_flying_it()
     print(congrats())
