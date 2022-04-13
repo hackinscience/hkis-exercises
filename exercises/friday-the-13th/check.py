@@ -15,6 +15,9 @@ with helper.student_code(print_prefix="When I imported your solution, it printed
 
 
 def parse_date(some_date):
+    if len(some_date) != len("YYYY-MM-DD"):
+        # To catch dates like 2025-6-13 that would be accepted by strptime.
+        raise ValueError("Date is not formatted properly")
     return datetime.datetime.strptime(some_date, "%Y-%m-%d").date()
 
 
