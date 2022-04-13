@@ -1,8 +1,8 @@
 {
     "url": "https://www.hackinscience.org/api/exercises/64/",
-    "title": "Change for 42\u20ac",
-    "title_en": "Change for 42\u20ac",
-    "title_fr": "42\u20ac en petite monnaie",
+    "title": "Change for 42€",
+    "title_en": "Change for 42€",
+    "title_fr": "42€ en petite monnaie",
     "slug": "change-for-42",
     "is_published": true,
     "position": 4547.9014084507,
