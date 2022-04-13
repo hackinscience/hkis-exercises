@@ -14,7 +14,7 @@ import io
 def reset(tarinfo):
     tarinfo.uid = tarinfo.gid = 0
     tarinfo.uname = tarinfo.gname = "root"
-    tarinfo.mtime
+    tarinfo.mtime = 1
     return tarinfo
 
 
