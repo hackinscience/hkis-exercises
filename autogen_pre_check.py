@@ -11,6 +11,13 @@ import base64
 import io
 
 
+def reset(tarinfo):
+    tarinfo.uid = tarinfo.gid = 0
+    tarinfo.uname = tarinfo.gname = "root"
+    tarinfo.mtime
+    return tarinfo
+
+
 def main():
     for file in Path(".").glob("*/*/wording_en.md"):
         exercise = file.parent
@@ -18,7 +25,7 @@ def main():
         if (exercise / "testenv").exists():
             tar = io.BytesIO()
             with tarfile.open(fileobj=tar, mode="w:xz") as t:
-                t.add(exercise / "testenv", arcname=".")
+                t.add(exercise / "testenv", arcname=".", filter=reset)
             extractor = f"""# AUTO GENERATED: DO NOT EDIT.
 from pathlib import Path
 import io

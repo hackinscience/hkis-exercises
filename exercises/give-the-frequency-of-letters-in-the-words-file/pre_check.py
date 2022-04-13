@@ -6,7 +6,7 @@ import base64
 import lzma
 from subprocess import run
 
-tar_bytes = io.BytesIO(base64.b64decode(b'/Td6WFoAAATm1rRGAgAhARYAAAB0L+Wj4Cf/AOBdABcL3ASAUDIm7h19G/PyyzPs7Pg38OrWet04dhtWH3Vustl6lPJpZ0H2EkjpO96jLtkR94wkbpcbQqvHv3cBENx9Zs4YHJSSfp2j8wtY9VmVpN861omP7GmOfsB3eptwTrTOhltxI1Xp5YNU9gZlXvARgBG3o0sk47utrNdEr7G/7AhVUgLsmnl4S6ahmNfXRI/06eJSj2V/maWYUD+N5reJ/iNpc4AByyFZZ+qp9JlIJN2np7Ezx56pEANlLVT4/eYaPxgpSWovxnCdBexxKYxyT8SZO+JH4FI7ujQc4C9gANrS6iInaCgiAAH8AYBQAACEvIAdscRn+wIAAAAABFla'))
+tar_bytes = io.BytesIO(base64.b64decode(b'/Td6WFoAAATm1rRGAgAhARYAAAB0L+Wj4Cf/ANxdABcL3ASAUDIm7h19G/PyyzPs7Pg38OrWet04dhtWH3Vustl6lPJpZ0H2EkjpO96jLtkR94wkbpcbQqvHv3cBENx9Zs4YHJSSfp2j8wtY9VmVpN861o5HIHOr9eq+Zn1QmkzdNU6uNXBeObTRIG+Ejid+i5oVtM72mTI9qLKc2DFvZR6vbTramaDYZ3K0q7dcoi0AKW3JDqB1AGqnN4hRDRv0gRhQcDI9AyCPLzNN2Np+B11BrSWJJk40xzKDeq18suBgMvDYyLlsQ//fjKd2TJdDEYXQs9SnebzGwr4ANSCY7D+GAZ8AAfgBgFAAAJL+EYaxxGf7AgAAAAAEWVo='))
 with tarfile.open(fileobj=tar_bytes, mode="r:xz") as t:
     t.extractall(".")
 
