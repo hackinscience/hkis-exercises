@@ -56,6 +56,11 @@ print(60 * 60)
             f"You printed {60 * 60 * 24} (60 × 60 × 24), this is the number of "
             "seconds in a day. I need the number of seconds in a year of **365** days."
         )
+    if output_int == 60 * 60 * 365:
+        checker.fail(
+            f"You printed {60 * 60 * 365} (60 × 60 × 365), this is the number of "
+            "**hours** in a year. I need the number of **seconds** in a year."
+        )
     if output_line.startswith(" "):
         checker.fail(
             "Why do your output starts with a space?",
