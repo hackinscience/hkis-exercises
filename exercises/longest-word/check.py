@@ -46,6 +46,16 @@ King of the Britons defeater of the Saxons""": "Pendragon",
         ):
             theirs = longest_word(test)
         if theirs is None:
+            with student_code(print_allowed=None) as test_run:
+                longest_word(test)
+            if test_run.out == expected:
+                fail(
+                    "Your function returned `None`, "
+                    "but is printing the expected string.",
+                    "Your function should should [return]"
+                    "(https://docs.python.org/3/tutorial/controlflow.html"
+                    "#defining-functions) the value instead of printing it.",
+                )
             fail(
                 "Your function returned `None`, it should [return]"
                 "(https://docs.python.org/3/tutorial/controlflow.html"
