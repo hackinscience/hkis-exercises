@@ -1,4 +1,4 @@
-Provide a function that prints the `n` first numbers of the [fibonacci
+Provide a function that returns the `n` first numbers of the [fibonacci
 sequence](https://en.wikipedia.org/wiki/Fibonacci_number).
 
 Name your function `fibonacci` and take a single parameter, say `n`.
