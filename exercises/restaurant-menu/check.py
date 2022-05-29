@@ -202,7 +202,7 @@ def check():
         )
 
     with student_code(prefix="While printing `Menu` item"):
-        menu_output = str(simple_menu)
+        menu_output = str(simple_menu).strip()
 
     if menu_output != menu_to_check:
         fail(
